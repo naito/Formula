@@ -2,9 +2,10 @@ require 'formula'
 
 class Ecell3 < Formula
   homepage 'https://github.com/ecell/ecell3'
-#  url 'https://api.github.com/repos/ecell/ecell3/tarball/8b8dceeba31895618c26d01cbcb1f42df690163e'
   url 'https://github.com/ecell/ecell3.git', :using => :git
-  sha1 'e817378b0a8f14cbf93e7e30e72e99ce8fdb057c'
+  sha1 '94c69c2b29911524904def56257a582b640782ab'
+#  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
+#  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
 
   depends_on :x11
   depends_on :autoconf
