@@ -23,11 +23,13 @@ class Libsbml < Formula
 #                          "--with-python"
 #    system "make", "install"
 
-    system "cmake", "-DCMAKE_INSTALL_PREFIX=#{prefix}",
-                         "-DWITH_LIBXML=ON"
-                         "-DWITH_SWIG=ON"
-                         "-DWITH_JAVA=ON"
-                         "-DWITH_PYTHON=ON"
+   system "mkdir", "./build"
+   system "cd", "build/"
+    system "cmake", "..", "-DCMAKE_INSTALL_PREFIX=#{prefix}",
+                          "-DWITH_LIBXML=ON"
+                          "-DWITH_SWIG=ON"
+                          "-DWITH_JAVA=ON"
+                          "-DWITH_PYTHON=ON"
 
   end
 
