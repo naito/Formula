@@ -9,7 +9,7 @@ class Libsbml < Formula
 #  depends_on :automake
 #  depends_on :libtool
   depends_on "cmake" => :build
-  depends_on 'libxml2'
+  depends_on 'expat'
   depends_on :python => ["2.7", :recommended]
   depends_on 'swig'
 
@@ -25,8 +25,8 @@ class Libsbml < Formula
 
     system "mkdir", "./build"
     system "cd", "build/"
-    system "cmake-gui", "..", "-DCMAKE_INSTALL_PREFIX=#{prefix}",
-                          "-DWITH_LIBXML=ON",
+    system "cmake", "..", "-DCMAKE_INSTALL_PREFIX=#{prefix}",
+                          "-DWITH_EXPAT=ON",
                           "-DWITH_SWIG=ON",
                           "-DWITH_JAVA=ON",
                           "-DWITH_PYTHON=ON"
