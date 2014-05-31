@@ -14,7 +14,7 @@ class Libsbml < Formula
   depends_on 'libxml2'
 #  depends_on 'expat'
   depends_on :python => ["2.7", :recommended]
-#  depends_on 'swig'
+  depends_on 'swig'
 
   def install
 
@@ -24,7 +24,8 @@ class Libsbml < Formula
 #                          "--with-expat",
                           "--with-swig=/usr/local",
                           "--with-java",
-                          "--with-python", "--with-python-interpreter=/usr/bin/python2.7"
+#                          "--with-python", "--with-python-interpreter=/usr/bin/python2.7"
+                          "--with-python"
     system "make", "install"
 
 #    system "mkdir", "./build"
