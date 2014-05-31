@@ -9,16 +9,18 @@ class Libsbml < Formula
   depends_on :automake
   depends_on :libtool
 #  depends_on "cmake" => :build
-  depends_on 'expat'
+  depends_on 'libxml2'
+#  depends_on 'expat'
   depends_on :python => ["2.7", :recommended]
-#  depends_on 'swig'
+  depends_on 'swig'
 
   def install
 
     ENV['ARCHFLAGS'] = "ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future"
     system "./configure", "--prefix=#{prefix}",
                           "--with-libxml",
-                          "--without-swig",
+#                          "--with-expat",
+                          "--with-swig",
                           "--with-java",
                           "--with-python"
     system "make", "install"
