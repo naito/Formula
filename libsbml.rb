@@ -22,10 +22,10 @@ class Libsbml < Formula
     system "./configure", "--prefix=#{prefix}",
                           "--with-libxml",
 #                          "--with-expat",
-                          "--with-swig=/usr/local",
+                          "--with-swig",
                           "--with-java",
 #                          "--with-python", "--with-python-interpreter=/usr/bin/python2.7"
-                          "--with-python"
+#                          "--with-python"
     system "make", "install"
 
 #    system "mkdir", "./build"
