@@ -9,7 +9,7 @@ class Ecell3 < Formula
 #  url 'https://github.com/ecell/ecell3/archive/naito-StepperDebug.tar.gz'
 #  sha1 'f96255e61b9d21991a9429240bec6bcdcd58d76f'
   url 'https://github.com/ecell/ecell3/archive/empy3.3.2.tar.gz'
-  sha1 'f96255e61b9d21991a9429240bec6bcdcd58d76f'
+  sha1 'a03cb071617304b9d91e6f362f0c03160ef4f09d'
 
   depends_on :x11
   depends_on :autoconf
