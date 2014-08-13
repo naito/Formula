@@ -21,6 +21,7 @@ class Ecell3 < Formula
   depends_on 'numpy' => :python
   depends_on 'ply' => :python
   depends_on 'docopt' => :python
+  depends_on 'schema' => :python
 #  depends_on 'python-libsbml' => :python
 
   def install
