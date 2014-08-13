@@ -7,7 +7,7 @@ class Ecell3 < Formula
 #  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
 #  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
   url 'https://github.com/ecell/ecell3/archive/naito-ipython.tar.gz'
-  sha1 '66599493de989d503977caf3e31bb44245b4fb92'
+  sha1 '45c0259329a180fb0ac913122fc92d912f61527e'
 
   depends_on :x11
   depends_on :autoconf
@@ -20,6 +20,7 @@ class Ecell3 < Formula
 #  depends_on 'libsbml'
   depends_on 'numpy' => :python
   depends_on 'ply' => :python
+  depends_on 'docopt' => :python
 #  depends_on 'python-libsbml' => :python
 
   def install
