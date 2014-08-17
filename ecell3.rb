@@ -7,7 +7,7 @@ class Ecell3 < Formula
 #  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
 #  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
   url 'https://github.com/ecell/ecell3/archive/naito-ipython.tar.gz'
-  sha1 'f657ed20f48a104a1a0819c4fb48af85d8a7f17d'
+  sha1 '1132cf2df95a21f7013382a4573944340a431d56'
 
   depends_on :x11
   depends_on :autoconf
