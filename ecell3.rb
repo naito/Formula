@@ -3,7 +3,7 @@ require 'formula'
 class Ecell3 < Formula
   homepage 'https://github.com/ecell/ecell3'
   url 'https://github.com/ecell/ecell3.git', :using => :git
-  sha1 'c7bc6a690e59725176bf3b5d1a762ad44a81b866'
+  sha1 '7237ac785e2f8ad64f70f77da8fcf1d880cbca4a'
 #  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
 #  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
 
