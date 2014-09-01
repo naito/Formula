@@ -1,6 +1,7 @@
 require 'formula'
 
 class Ecell3 < Formula
+  version "3.2.3.140901"
   homepage 'https://github.com/ecell/ecell3'
   url 'https://github.com/ecell/ecell3.git', :using => :git
   sha1 '7237ac785e2f8ad64f70f77da8fcf1d880cbca4a'
