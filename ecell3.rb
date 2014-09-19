@@ -4,7 +4,7 @@ class Ecell3 < Formula
   version '3.2.3.140919i'
   homepage 'https://github.com/ecell/ecell3'
   url 'https://github.com/ecell/ecell3/archive/naito-ipython.tar.gz'
-  sha1 '4ae42ddd5908942d88d76de00228f54efcb311bd'
+  sha1 '424df4e3fc140efb66ed0e4435b149c39eb76c44'
 
   depends_on :x11
   depends_on :autoconf
