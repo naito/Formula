@@ -1,7 +1,7 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version '3.2.3.140902i'
+  version '3.2.3.140919i'
   homepage 'https://github.com/ecell/ecell3'
   url 'https://github.com/ecell/ecell3/archive/naito-ipython.tar.gz'
   sha1 'd5bd1e508de534ea795387fa79c8091c27ae6654'
