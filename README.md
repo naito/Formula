@@ -14,3 +14,7 @@ brew tap naito/ecell
 brew uninstall ecell3
 brew install ecell3
 ```
+
+## Note
+
+Typically installed in `/usr/local/Library/Taps/naito/homebrew-ecell`
