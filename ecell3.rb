@@ -1,10 +1,10 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version "3.2.3.160208"
-  homepage 'https://github.com/ecell/ecell3'
-  url 'https://github.com/ecell/ecell3.git', :using => :git
-  sha1 '9c96ec553e05b2bc09e05c9156b921e5fbe8964f'
+  version "3.2.3.160905"
+  homepage 'https://github.com/naito/ecell3'
+  url 'https://github.com/naito/ecell3.git', :using => :git
+  sha256 '49d4c441ba184bf99d128f5cad591fdb7709b6f6'
 #  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
 #  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
 
