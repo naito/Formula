@@ -9,9 +9,9 @@ class Ecell3 < Formula
 #  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
 
   depends_on :x11
-  depends_on :autoconf
-  depends_on :automake
-  depends_on :libtool
+  depends_on "autoconf"
+  depends_on "automake"
+  depends_on "libtool"
   depends_on :python => ["2.7", :recommended]
   depends_on 'pygtk'
   depends_on 'gsl'

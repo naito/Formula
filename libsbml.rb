@@ -7,9 +7,9 @@ class Libsbml < Formula
   url 'http://sourceforge.net/projects/sbml/files/libsbml/5.10.0/stable/libSBML-5.10.0-core-src.tar.gz'
   sha1 'a428d0992d384dd0d023644b04072e7f922c33c9'
 
-  depends_on :autoconf
-  depends_on :automake
-  depends_on :libtool
+  depends_on "autoconf"
+  depends_on "automake"
+  depends_on "libtool"
 #  depends_on "cmake" => :build
   depends_on 'libxml2'
 #  depends_on 'expat'
