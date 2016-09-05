@@ -8,7 +8,7 @@ class Cellml < Formula
   homepage ''
   # url 'http://sourceforge.net/projects/cellml-api/files/CellML-API-Nightly/1.12/20121031/src/cellml-api-1.12.tar.bz2/download'
   url 'http://sourceforge.net/projects/cellml-api/files/CellML-API-Nightly/1.13/20130716/src/cellml-api-1.13.tar.bz2/download'
-  sha1 ''
+  sha256 ''
 
   depends_on 'cmake' => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

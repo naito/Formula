@@ -6,7 +6,7 @@ class Ecell3 < Formula
   url 'https://github.com/naito/ecell3.git', :using => :git
   sha256 '49d4c441ba184bf99d128f5cad591fdb7709b6f6'
 #  url 'https://github.com/ecell/ecell3/archive/naito-SBML2EML.tar.gz'
-#  sha1 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
+#  sha256 '6d4b5f57ed692386a1969dbf8dd5d50a493fd456'
 
   depends_on :x11
   depends_on "autoconf"

@@ -3,9 +3,9 @@ require 'formula'
 class Libsbml < Formula
   homepage 'http://sbml.org/Software/libSBML'
 #  url 'http://sourceforge.net/projects/sbml/files/libsbml/5.9.0/stable/libSBML-5.9.0-core-src.tar.gz'
-#  sha1 'e2b42dfc45a9a1a88da73253ff3655ce5e25a6f1'
+#  sha256 'e2b42dfc45a9a1a88da73253ff3655ce5e25a6f1'
   url 'http://sourceforge.net/projects/sbml/files/libsbml/5.10.0/stable/libSBML-5.10.0-core-src.tar.gz'
-  sha1 'a428d0992d384dd0d023644b04072e7f922c33c9'
+  sha256 'a428d0992d384dd0d023644b04072e7f922c33c9'
 
   depends_on "autoconf"
   depends_on "automake"
