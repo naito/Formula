@@ -18,7 +18,7 @@ class Torque < Formula
 
   def install
     system "sh", "./autogen.sh"
-    system "./configure", "---enable-cgroups",
+    system "./configure", "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
   end
