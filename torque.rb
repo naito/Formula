@@ -7,9 +7,9 @@ class Torque62 < Formula
   sha256 '6edd7c6e362cc6f66ceba5be0d8440a124c2d23e'
 #  url 'https://github.com/adaptivecomputing/torque.git', :using => :git
 
-  depends_on :libxml2
-  depends_on :openssl
-  depends_on :homebrew/dupes/tcl-tk
+  depends_on 'libxml2'
+  depends_on 'openssl'
+  depends_on 'homebrew/dupes/tcl-tk'
   depends_on 'boost'
 
   def install
