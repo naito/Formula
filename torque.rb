@@ -4,7 +4,7 @@ class Torque < Formula
   version "6.1.0"
   homepage 'http://www.adaptivecomputing.com/products/open-source/torque/'
   url 'http://www.adaptivecomputing.com/download/torque/torque-6.1.0.tar.gz'
-  sha256 '6edd7c6e362cc6f66ceba5be0d8440a124c2d23e'
+  sha256 '2a76396253755e4a71a42f0eb7a7d4b96128f8360f4db19029ee10eeb26efa0b'
 #  url 'https://github.com/adaptivecomputing/torque.git', :using => :git
 
   depends_on 'libxml2'
