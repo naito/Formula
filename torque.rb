@@ -1,6 +1,6 @@
 require 'formula'
 
-class Torque62 < Formula
+class Torque < Formula
   version "6.1.0"
   homepage 'http://www.adaptivecomputing.com/products/open-source/torque/'
   url 'http://www.adaptivecomputing.com/download/torque/torque-6.1.0.tar.gz'
