@@ -19,6 +19,7 @@ class Torque < Formula
   def install
     system "sh", "./autogen.sh"
     system "./configure", "--enable-cgroups",
+                          "--with-xml2-include=#{prefix}/include/libxml2",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
   end
