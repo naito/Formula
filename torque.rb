@@ -7,7 +7,7 @@ class Torque < Formula
 #  sha256 '74d857e22f1082ed2fb2ba7976c129b73791177f504e10ce10362a6e8a9e1c8a'
 #  url 'https://github.com/adaptivecomputing/torque.git', :using => :git
   url 'https://github.com/adaptivecomputing/torque/archive/v5.1.1.tar.gz'
-  sha256 '2a76396253755e4a71a42f0eb7a7d4b96128f8360f4db19029ee10eeb26efa0b'
+  sha256 '22d077d6732b99987cb63aa738be2b4860e951335aa0705d06e4341ad8c287ee'
 
   depends_on "autoconf"
   depends_on "automake"
