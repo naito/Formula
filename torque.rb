@@ -21,7 +21,7 @@ class Torque < Formula
    inreplace "autogen.sh", "libtoolize", "glibtoolize"
    system "sh", "./autogen.sh"
 
-   inreplace "configure", "${xmlLib}", "xml2"
+#   inreplace "configure", "${xmlLib}", "xml2"
    inreplace "configure", "[AC_MSG_ERROR([TORQUE needs libxml2-devel in order to build]) ]", "[]"
     system "./configure", "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
