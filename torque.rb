@@ -12,8 +12,8 @@ class Torque < Formula
   depends_on "autoconf"
   depends_on "automake"
   depends_on "libtool"
-  depends_on 'libxml2'
-  depends_on 'openssl'
+#  depends_on 'libxml2'
+#  depends_on 'openssl'
   depends_on 'homebrew/dupes/tcl-tk'
   depends_on 'boost'
 
@@ -22,8 +22,7 @@ class Torque < Formula
     system "sh", "./autogen.sh"
 
     inreplace "configure", "${xmlLib}", "xml2"
-    system "CPPFLAGS='$CPPFLAGS -I/usr/local/include'", 
-           "./configure", "--enable-cgroups",
+    system "./configure", "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
   end
