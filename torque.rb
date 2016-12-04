@@ -1,13 +1,13 @@
 require 'formula'
 
 class Torque < Formula
-  version "6.1.0"
+  version "current"
   homepage 'http://www.adaptivecomputing.com/products/open-source/torque/'
 #  url 'http://www.adaptivecomputing.com/download/torque/torque-6.1.0.tar.gz'
 #  sha256 '74d857e22f1082ed2fb2ba7976c129b73791177f504e10ce10362a6e8a9e1c8a'
-#  url 'https://github.com/adaptivecomputing/torque.git', :using => :git
-  url 'https://github.com/adaptivecomputing/torque/archive/v5.1.1.tar.gz'
-  sha256 '22d077d6732b99987cb63aa738be2b4860e951335aa0705d06e4341ad8c287ee'
+  url 'https://github.com/adaptivecomputing/torque.git', :using => :git
+#  url 'https://github.com/adaptivecomputing/torque/archive/v5.1.1.tar.gz'
+#  sha256 '22d077d6732b99987cb63aa738be2b4860e951335aa0705d06e4341ad8c287ee'
 
   depends_on "autoconf"
   depends_on "automake"
