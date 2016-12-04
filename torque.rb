@@ -22,7 +22,7 @@ class Torque < Formula
    system "sh", "./autogen.sh"
 
    inreplace "configure", "${xmlLib}", "xml2"
-    system "./configure", "CPPFLAGS='-I/usr/local/include/'",
+    system "./configure", "CPPFLAGS='-I/usr/local/include'",
                           "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
