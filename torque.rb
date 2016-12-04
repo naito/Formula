@@ -21,7 +21,7 @@ class Torque < Formula
    inreplace "autogen.sh", "libtoolize", "glibtoolize"
    system "sh", "./autogen.sh"
 
-   inreplace "configure", "sed 's/-L[^[:space:]]* //g;s/-l//'", "sed -E 's/-L[^[:space:]]* //g;s/-l([^[:space:]]+).*/\1/g'"
+   inreplace "configure", "sed 's/-L[^[:space:]]* //g;s/-l//'", "sed -E 's/-L[^[:space:]]* //g;s/-l([^[:space:]]+).*/\\1/g'"
     system "./configure", "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
