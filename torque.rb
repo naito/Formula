@@ -17,10 +17,8 @@ class Torque < Formula
   depends_on 'boost'
 
   def install
-    if build.head?
-      inreplace "autogen.sh", "libtoolize", "glibtoolize"
-      system "./autogen.sh"
-    end
+   inreplace "autogen.sh", "libtoolize", "glibtoolize"
+   system "sh", "./autogen.sh"
 
     system "./configure", "--enable-cgroups",
                           "--with-xml2-include=#{prefix}/include/libxml2",
