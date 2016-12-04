@@ -18,12 +18,12 @@ class Torque < Formula
   depends_on 'boost'
 
   def install
-   inreplace "autogen.sh", "libtoolize", "glibtoolize"
-   system "sh", "./autogen.sh"
+    inreplace "autogen.sh", "libtoolize", "glibtoolize"
+    system "sh", "./autogen.sh"
 
-   inreplace "configure", "${xmlLib}", "xml2"
-    system "./configure", "CPPFLAGS='-I/usr/local/include'",
-                          "--enable-cgroups",
+    inreplace "configure", "${xmlLib}", "xml2"
+    system "CPPFLAGS='$CPPFLAGS -I/usr/local/include'", 
+           "./configure", "--enable-cgroups",
                           "--with-hwloc-path=#{prefix}"
     system "make", "install"
   end
