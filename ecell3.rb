@@ -4,7 +4,7 @@ class Ecell3 < Formula
   version "3.2.4.170503"
   homepage 'https://github.com/naito/ecell3'
 #  url 'https://github.com/naito/ecell3.git', :using => :git
-  url 'https://github.com/naito/ecell3/archive/3.2.4.tar.gz
+  url 'https://github.com/naito/ecell3/archive/3.2.4.tar.gz'
   sha256 'ac1a5564c314a2eec5c0ef7cc6ba248e79e1f0ac'
 
   depends_on :x11
