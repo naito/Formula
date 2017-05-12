@@ -3,9 +3,8 @@ require 'formula'
 class Ecell3 < Formula
   version "3.2.4b"
   homepage 'https://github.com/naito/ecell3'
-#  url 'https://github.com/naito/ecell3.git', :using => :git
-  url 'https://github.com/naito/ecell3/archive/3.2.4b.tar.gz'
-  sha256 'b74ed76b4b57096113e7e5dfa24867eefc65d85d47e0eabf4f5dd154b6b0c4a9'
+  url 'https://github.com/naito/ecell3/archive/ecell-3.2.4c.tar.gz'
+  sha256 'e5b74b06211fbcca4c7f22db5b8e664da6be89456c897befa594e36afe6440fc'
 
   depends_on :x11
   depends_on "autoconf"
