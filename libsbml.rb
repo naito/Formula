@@ -5,7 +5,7 @@ class Libsbml < Formula
 #  url 'http://sourceforge.net/projects/sbml/files/libsbml/5.9.0/stable/libSBML-5.9.0-core-src.tar.gz'
 #  sha256 'e2b42dfc45a9a1a88da73253ff3655ce5e25a6f1'
   url 'http://sourceforge.net/projects/sbml/files/libsbml/5.10.0/stable/libSBML-5.10.0-core-src.tar.gz'
-  sha256 'a428d0992d384dd0d023644b04072e7f922c33c9'
+  sha256 'c7e733443caaf4615e90a29111ff988b89b1c9a679de0a9737fc2a86840df1e0'
 
   depends_on "autoconf"
   depends_on "automake"
