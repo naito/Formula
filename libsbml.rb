@@ -23,7 +23,7 @@ class Libsbml < Formula
                           "--with-libxml",
 #                          "--with-expat",
                           "--with-swig",
-                          "--with-java",
+#                          "--with-java",
 #                          "--with-python", "--with-python-interpreter=/usr/bin/python2.7"
                           "--without-python"
     system "make", "install"
