@@ -18,6 +18,7 @@ class Ecell3 < Formula
   depends_on 'libsbml'
   depends_on 'numpy' => :python
   depends_on 'ply' => :python
+  depends_on 'readline' => :python
 #  depends_on 'python-libsbml' => :python
 
   def install
