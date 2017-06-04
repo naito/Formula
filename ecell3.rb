@@ -15,7 +15,7 @@ class Ecell3 < Formula
   depends_on 'gsl'
   depends_on 'boost'
   depends_on 'boost-python'
-#  depends_on 'libsbml'
+  depends_on 'libsbml'
   depends_on 'numpy' => :python
   depends_on 'ply' => :python
 #  depends_on 'python-libsbml' => :python
