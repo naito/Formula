@@ -4,7 +4,7 @@ class Ecell3 < Formula
   version "3.2.4.170605"
   homepage 'https://github.com/naito/ecell3'
   url 'https://github.com/naito/ecell3/archive/ecell-3.2.4d.tar.gz'
-  sha256 '50544f66a5393f366e86ebc7f6a5e208eca8298ccdcc623617292b3ddccabb5a'
+  sha256 '7496b7051ad372e88b9149f53b93f93761776757e760bfad39c7201bc36541dd'
 
   depends_on :x11
   depends_on "autoconf"
