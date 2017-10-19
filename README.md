@@ -12,10 +12,8 @@ brew install ecell3
 
 ## Update
 ```
-brew untap naito/ecell
-brew tap naito/ecell
-brew uninstall ecell3
-brew install ecell3
+brew update
+brew upgrade ecell3
 ```
 
 
