@@ -1,10 +1,10 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version "3.2.4.170605"
+  version "3.2.5"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/archive/ecell-3.2.4d.tar.gz'
-  sha256 '7496b7051ad372e88b9149f53b93f93761776757e760bfad39c7201bc36541dd'
+  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.5/ecell-3.2.5.tar.gz'
+  sha256 '87d2ae542e09d015e0f369576921c79bc37ec4b2593a47895887d5353da15388'
 
   depends_on :x11
   depends_on "autoconf"
