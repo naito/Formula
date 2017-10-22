@@ -2,18 +2,34 @@
 Homebrew Formulas to install E-Cell3 and related packages.
 
 ## Install
+
+### Install brewed Python
 ```
 brew install python
 ```
-add the following to `~/.bash_profile` or `~/.profile` etc.:
-```
+
+### Edit profile for schell
+``` 
+cat << 'EOS' >> ~/.profile
+
+# PATH for brewed Python
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+EOS
 ```
-install packages
+- Activate the added `PATH`
 ```
-brew install numpy --without-python3
+$ source ~/.profile
+```
+
+### Install required Python packages
+```
 pip install --upgrade pip setuptools
+pip install numpy
 pip install ply
+```
+
+### Install E-Cell3
+```
 brew tap naito/ecell
 brew install ecell3
 ```
