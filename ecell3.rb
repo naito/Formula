@@ -7,9 +7,6 @@ class Ecell3 < Formula
   sha256 'a918a62ab5677bb36d06f2667918c77c7188b559c432620440925d0953624d37'
 
   depends_on :x11
-  depends_on "autoconf"
-  depends_on "automake"
-  depends_on "libtool"
   depends_on :python => ["2.7", :recommended]
   depends_on 'pygtk'
   depends_on 'gsl'
@@ -22,7 +19,6 @@ class Ecell3 < Formula
 #  depends_on 'python-libsbml' => :python
 
   def install
-    system "sh", "./autogen.sh"
     system "./configure", "--with-boost-python-libname=boost_python-mt",
                           "--disable-debug",
                           "--disable-dependency-tracking",
