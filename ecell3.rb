@@ -1,10 +1,10 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version "3.2.6"
+  version "3.2.7"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.6/ecell-3.2.6.tar.gz'
-  sha256 'a918a62ab5677bb36d06f2667918c77c7188b559c432620440925d0953624d37'
+  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.7/ecell-3.2.7.tar.gz'
+  sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
 
   depends_on :x11
   depends_on :python => ["2.7", :recommended]
@@ -16,7 +16,6 @@ class Ecell3 < Formula
   depends_on 'numpy' => :python
   depends_on 'ply' => :python
   depends_on 'readline' => :python
-#  depends_on 'python-libsbml' => :python
 
   def install
     system "./configure", "--with-boost-python-libname=boost_python-mt",
