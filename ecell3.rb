@@ -7,7 +7,7 @@ class Ecell3 < Formula
   sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
 
   depends_on :x11
-  depends_on :python => ["2.7", :recommended]
+  depends_on :python@2 => ["2.7", :recommended]
   depends_on 'pygtk'
   depends_on 'gsl'
   depends_on 'boost'
