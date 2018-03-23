@@ -9,7 +9,7 @@ class Libsbml < Formula
   depends_on "automake"
   depends_on "libtool"
   depends_on 'libxml2'
-  depends_on :python@2 => ["2.7", :recommended]
+  depends_on "python@2" => ["2.7", :recommended]
   depends_on 'swig'
 
   def install
