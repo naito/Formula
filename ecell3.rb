@@ -19,8 +19,7 @@ class Ecell3 < Formula
   depends_on 'readline' => :recommended
 
   def install
-    system "./configure", "--with-boost-python-libname=boost_python-mt",
-                          "--disable-debug",
+    system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules", 
                           "--prefix=#{prefix}"
