@@ -14,7 +14,7 @@ Homebrew Formulas to install E-Cell3 and related packages.
 brew install python
 ```
 
-### Edit profile for schell
+### Edit profile for shell
 ``` 
 cat << 'EOS' >> ~/.profile
 
