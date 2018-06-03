@@ -1,7 +1,7 @@
 # homebrew-ecell
 Homebrew Formulas to install E-Cell3 and related packages.
 
-- [E-Cell3 3.2.6](https://github.com/naito/ecell3)
+- [E-Cell3 3.2.7](https://github.com/naito/ecell3)
 - [libSBML 5.15.0](http://sbml.org/Software/libSBML)
 
 ## Install
