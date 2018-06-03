@@ -1,7 +1,7 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version "3.2.7c"
+  version "3.2.7d"
   homepage 'https://github.com/naito/ecell3'
   url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.7/ecell-3.2.7.tar.gz'
   sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
