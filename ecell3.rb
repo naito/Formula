@@ -28,7 +28,7 @@ _devel = true
 
   def install
 
-    if _devel then
+    if _devel == true then
       system "./autogen.sh"
     end
 
