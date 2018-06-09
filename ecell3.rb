@@ -6,7 +6,10 @@ class Ecell3 < Formula
   url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.7/ecell-3.2.7.tar.gz'
   sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
 
+_devel = false
+
   devel do
+_devel = true
     url "https://github.com/naito/ecell3/archive/session-monitor-2018.tar.gz"
     sha256 "e34fce73e53029d1ce7f51b4e4e0554402d5a902761731bb22783618c681650f"
   end
@@ -25,7 +28,7 @@ class Ecell3 < Formula
 
   def install
 
-    devel do
+    if _devel then
       system "./autogen.sh"
     end
 
