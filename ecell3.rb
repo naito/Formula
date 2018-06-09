@@ -11,7 +11,7 @@ $devel = false
   devel do
 $devel = true
     url "https://github.com/naito/ecell3/archive/session-monitor-2018.tar.gz"
-    sha256 "e34fce73e53029d1ce7f51b4e4e0554402d5a902761731bb22783618c681650f"
+    sha256 "32b2047ba67151a892028d4d886222df7285eb57d81027a8bd516ac85f974deb"
   end
 
   depends_on :x11
