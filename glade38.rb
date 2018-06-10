@@ -28,7 +28,7 @@ class Glade38 < Formula
                           "--enable-introspection"
 
     inreplace "src/glade-window.c" do |s|
-      s.gsub! "GTK_TYPE_OSX_APPLICATION"/, "GTKOSX_TYPE_APPLICATION"
+      s.gsub! "GTK_TYPE_OSX_APPLICATION", "GTKOSX_TYPE_APPLICATION"
       s.gsub! "gtk_osxapplication_", "gtkosx_application_"
     end
 
