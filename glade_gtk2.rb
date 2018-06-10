@@ -1,4 +1,4 @@
-class Glade_GTK2 < Formula
+class GladeGTK2 < Formula
   desc "RAD tool for the GTK+ and GNOME environment"
   homepage "https://glade.gnome.org/"
   url "https://download.gnome.org/sources/glade/3.8/glade-3.8.6.tar.xz"
