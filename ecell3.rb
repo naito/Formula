@@ -5,13 +5,14 @@ class Ecell3 < Formula
   homepage 'https://github.com/naito/ecell3'
   url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.7/ecell-3.2.7.tar.gz'
   sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
+  revision 2
 
 $devel = false
 
   devel do
 $devel = true
     url "https://github.com/naito/ecell3/archive/session-monitor-2018.tar.gz"
-    sha256 "32b2047ba67151a892028d4d886222df7285eb57d81027a8bd516ac85f974deb"
+    sha256 "ad54f2eacc5c9a3295dda2c6cab3e11118ed164188105a7b78930b6dd8295ecd"
   end
 
   depends_on :x11
