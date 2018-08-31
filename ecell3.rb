@@ -17,7 +17,8 @@ $devel = true
 
   depends_on :x11
 #  depends_on "python@2" if MacOS.version <= :snow_leopard
-  depends_on 'python'
+#  depends_on 'python'
+  depends_on 'python@2'
   depends_on 'pygtk'
   depends_on 'gsl'
   depends_on 'boost'
