@@ -30,9 +30,9 @@ $devel = true
 
   def install
 
-    if $devel == true then
-      system "./autogen.sh"
-    end
+    ## if $devel == true then
+    ##   system "./autogen.sh"
+    ## end
 
     system "./configure", "--with-boost-python-libname=boost_python27-mt", 
                           "--disable-debug",
