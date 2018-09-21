@@ -23,7 +23,7 @@ $devel = true
   depends_on 'gsl'
   depends_on 'boost'
   depends_on 'boost-python'
-  depends_on 'libsbml'
+# depends_on 'libsbml'
   depends_on 'numpy' => :recommended
 # depends_on 'ply' => :recommended
   depends_on 'readline' => :recommended
