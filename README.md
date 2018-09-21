@@ -9,7 +9,7 @@ Homebrew Formulas to install E-Cell3 and related packages.
 ### Install Homebrew
 [Homebrew web site](https://brew.sh)
 
-### Install brewed Python
+### Install brewed Python@2
 ```
 brew install python
 ```
