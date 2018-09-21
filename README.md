@@ -14,19 +14,6 @@ Homebrew Formulas to install E-Cell3 and related packages.
 brew install python@2
 ```
 
-### Edit profile for shell
-``` 
-cat << 'EOS' >> ~/.profile
-
-# PATH for brewed Python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-EOS
-```
-- Activate the added `PATH`
-```
-$ source ~/.profile
-```
-
 ### Install required Python packages
 ```
 pip install --upgrade pip setuptools
@@ -48,4 +35,5 @@ brew upgrade ecell3
 
 
 ## Note
-Typically installed in `/usr/local/Library/Taps/naito/homebrew-ecell`
+Typically installed in `/usr/local/Cellar/ecell3/3.2.7d_2`
+Formula files are typically installed in `/usr/local/Homebrew/Library/Taps/naito/homebrew-ecell`
