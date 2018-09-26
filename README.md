@@ -17,8 +17,7 @@ brew install python@2
 ### Install required Python packages
 ```
 pip install --upgrade pip setuptools
-pip install numpy
-pip install ply
+pip install numpy ply
 ```
 
 ### Install E-Cell3
