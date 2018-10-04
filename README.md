@@ -2,7 +2,6 @@
 Homebrew Formulas to install E-Cell3 and related packages.
 
 - [E-Cell3 3.2.7](https://github.com/naito/ecell3)
-- [libSBML 5.15.0](http://sbml.org/Software/libSBML)
 
 ## Install
 
@@ -17,7 +16,7 @@ brew install python@2
 ### Install required Python packages
 ```
 pip install --upgrade pip setuptools
-pip install numpy ply
+pip install numpy ply python-libsbml
 ```
 
 ### Install E-Cell3
