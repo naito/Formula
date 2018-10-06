@@ -83,3 +83,5 @@ index 964104f..1398e7b 100644
 -                   '-I' + os.path.join(include_dir, 'libecs') ]
 +                   '-I' + os.path.join(include_dir, 'libecs'), '-I' + 'HOMEBREW_PREFIX/include' ]
      SRC = None
+
+
