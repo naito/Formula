@@ -28,17 +28,36 @@ $devel = true
 # depends_on 'ply' => :recommended
   depends_on 'readline' => :recommended
 
+  # https://pypi.org
+
+  resource "numpy" do
+    url "https://files.pythonhosted.org/packages/45/ba/2a781ebbb0cd7962cc1d12a6b65bd4eff57ffda449fdbbae4726dc05fbc3/numpy-1.15.2.zip"
+    sha256 "27a0d018f608a3fe34ac5e2b876f4c23c47e38295c47dd0775cc294cd2614bc1"
+  end
+
+  resource "ply" do
+    url "https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz"
+    sha256 "00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3"
+  end
+
+  resource "python-libsbml" do
+    url "https://files.pythonhosted.org/packages/cc/44/5f3504d6f5c10e6e877d51ff280f2f4ed4effbc56f59d5b935881bed9e65/python-libsbml-5.17.0.tar.gz"
+    sha256 "3174b68588a395e9365fff9bcb19692d583525980bc21f33ccee9f3cd45cecfe"
+  end
+
   def install
 
     ## if $devel == true then
     ##   system "./autogen.sh"
     ## end
 
-    system "./configure", "--with-boost-python-libname=boost_python27-mt", 
+    system "./configure", "--with-boost-python-libname=boost_python27-mt",
                           "--disable-debug",
                           "--disable-dependency-tracking",
-                          "--disable-silent-rules", 
+                          "--disable-silent-rules",
                           "--prefix=#{prefix}"
+                          "--libdir=#{HOMEBREW_PREFIX}/lib"
+                          "--includedir=#{HOMEBREW_PREFIX}/include"
     system "make", "install"
   end
 
