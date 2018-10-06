@@ -56,8 +56,6 @@ $devel = true
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
-                          "--libdir=#{HOMEBREW_PREFIX}/lib"
-                          "--includedir=#{HOMEBREW_PREFIX}/include"
     system "make", "install"
   end
 
