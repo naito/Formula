@@ -68,10 +68,10 @@ $devel = true
 end
 
 __END__
-diff --git a/ecell/bin/ecell3-dmc.in b/ecell/bin/ecell3-dmc.in
+diff --git a/ecell/bin/ecell3-dmc.in ecell/bin/ecell3-dmc.in
 index 964104f..1398e7b 100644
 --- a/ecell/bin/ecell3-dmc.in
-+++ b/ecell/bin/ecell3-dmc.in
++++ ecell/bin/ecell3-dmc.in
 @@ -150,10 +150,10 @@ def main():
      # -------------------------------------
      # initialize file names
