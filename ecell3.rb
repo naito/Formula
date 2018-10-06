@@ -71,7 +71,7 @@ diff --git a/ecell/bin/ecell3-dmc.in ecell/bin/ecell3-dmc.in
 index 964104f..1398e7b 100644
 --- a/ecell/bin/ecell3-dmc.in
 +++ ecell/bin/ecell3-dmc.in
-@@ -150,10 +150,10 @@ def main():
+@@ -150,8 +150,8 @@ def main():
      # -------------------------------------
      # initialize file names
      # -------------------------------------
@@ -82,5 +82,3 @@ index 964104f..1398e7b 100644
 -                   '-I' + os.path.join(include_dir, 'libecs') ]
 +                   '-I' + os.path.join(include_dir, 'libecs'), '-I' + 'HOMEBREW_PREFIX/include' ]
      SRC = None
-
-
