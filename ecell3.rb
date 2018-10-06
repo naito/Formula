@@ -56,8 +56,8 @@ $devel = true
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
                           "--prefix=#{prefix}",
-                          "LDFLAGS -L#{HOMEBREW_PREFIX}/lib",
-                          "CPPFLAGS -I#{HOMEBREW_PREFIX}/include"
+                          "--libdir=#{HOMEBREW_PREFIX}/lib",
+                          "--includedir=#{HOMEBREW_PREFIX}/include"
     system "make", "install"
   end
 
