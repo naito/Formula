@@ -45,8 +45,8 @@ $devel = true
     sha256 "3174b68588a395e9365fff9bcb19692d583525980bc21f33ccee9f3cd45cecfe"
   end
 
-#  patch :DATA
-#  patch :p0, :DATA
+  patch :DATA
+  patch :p0, :DATA
 
   def install
 
@@ -66,3 +66,20 @@ $devel = true
     system "false"
   end
 end
+
+__END__
+diff --git a/ecell/bin/ecell3-dmc.in b/ecell/bin/ecell3-dmc.in
+index 964104f..1398e7b 100644
+--- a/ecell/bin/ecell3-dmc.in
++++ b/ecell/bin/ecell3-dmc.in
+@@ -150,10 +150,10 @@ def main():
+     # -------------------------------------
+     # initialize file names
+     # -------------------------------------
+-    STDLIBDIRS = [ '-L' + _lib_dir, '-L' + lib_dir ]
++    STDLIBDIRS = [ '-L' + _lib_dir, '-L' + lib_dir, '-L' + 'HOMEBREW_PREFIX/lib' ]
+     STDINCLUDE = [ '-I' + _include_dir,
+                    '-I' + include_dir,
+-                   '-I' + os.path.join(include_dir, 'libecs') ]
++                   '-I' + os.path.join(include_dir, 'libecs'), '-I' + 'HOMEBREW_PREFIX/include' ]
+     SRC = None
