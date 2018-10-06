@@ -46,7 +46,6 @@ $devel = true
   end
 
   patch :DATA
-  patch :p0, :DATA
 
   def install
 
