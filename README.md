@@ -19,6 +19,12 @@ pip install --upgrade pip setuptools
 pip install numpy ply python-libsbml
 ```
 
+### Install Python packages required for ecell3-jupyter
+```
+pip install matplotlib scipy sympy
+pip install ipython[all]
+```
+
 ### Install E-Cell3
 ```
 brew tap naito/ecell
