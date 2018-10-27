@@ -1,11 +1,11 @@
 require 'formula'
 
 class Ecell3 < Formula
-  version "3.2.7d"
+  version "3.2.8"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.7/ecell-3.2.7.tar.gz'
-  sha256 '7f442b644b77b3732c315993256bcc33257602c41076b85673a39f420cfcc290'
-  revision 2
+  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.8/ecell-3.2.8.tar.gz'
+  sha256 '32612fd2cb8c81f38e97a0e74985efc405c2cefa39b16413793dcdfc21c46c87'
+  revision 1
 
 $devel = false
 
