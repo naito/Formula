@@ -1,7 +1,7 @@
 # homebrew-ecell
 Homebrew Formulas to install E-Cell3 and related packages.
 
-- [E-Cell3 3.2.7](https://github.com/naito/ecell3)
+- [E-Cell3 3.2.8](https://github.com/naito/ecell3)
 
 ## Install
 
