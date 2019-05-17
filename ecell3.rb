@@ -27,6 +27,9 @@ $devel = true
 # depends_on 'numpy' => :recommended
 # depends_on 'ply' => :recommended
   depends_on 'readline' => :recommended
+  depends_on 'autoconf'
+  depends_on 'libtool'
+  depends_on 'automake'
 
   # https://pypi.org
 
