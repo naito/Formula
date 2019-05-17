@@ -53,6 +53,7 @@ $devel = true
     ##   system "./autogen.sh"
     ## end
 
+    system "./autogen.sh"
     system "./configure", "--with-boost-python-libname=boost_python27-mt",
                           "--disable-debug",
                           "--disable-dependency-tracking",
