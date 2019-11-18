@@ -3,9 +3,9 @@ require 'formula'
 class Ecell3 < Formula
   version "3.2.8"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/releases/download/ecell-3.2.8/ecell-3.2.8.tar.gz'
-  sha256 '32612fd2cb8c81f38e97a0e74985efc405c2cefa39b16413793dcdfc21c46c87'
-  revision 1
+  url 'https://github.com/naito/ecell3/tarball/30499e5079a94557f96282179f9572ca7019875a'
+  sha256 '8c87f204c7f63b34780f0db676c523fe9d84f96efbc47604d9ce1858eaa058b2'
+  revision 2
 
 $devel = false
 
@@ -27,6 +27,9 @@ $devel = true
 # depends_on 'numpy' => :recommended
 # depends_on 'ply' => :recommended
   depends_on 'readline' => :recommended
+  depends_on 'autoconf'
+  depends_on 'libtool'
+  depends_on 'automake'
 
   # https://pypi.org
 
@@ -53,6 +56,7 @@ $devel = true
     ##   system "./autogen.sh"
     ## end
 
+    system "./autogen.sh"
     system "./configure", "--with-boost-python-libname=boost_python27-mt",
                           "--disable-debug",
                           "--disable-dependency-tracking",

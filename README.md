@@ -1,7 +1,7 @@
 # homebrew-ecell
 Homebrew Formulas to install E-Cell3 and related packages.
 
-- [E-Cell3 3.2.7](https://github.com/naito/ecell3)
+- [E-Cell3 3.2.8](https://github.com/naito/ecell3)
 
 ## Install
 
@@ -17,6 +17,12 @@ brew install python@2
 ```
 pip install --upgrade pip setuptools
 pip install numpy ply python-libsbml
+```
+
+### Install Python packages required for ecell3-jupyter
+```
+pip install matplotlib scipy sympy
+pip install ipython[all]
 ```
 
 ### Install E-Cell3
