@@ -14,7 +14,9 @@ class Ecell33 < Formula
   depends_on 'boost'
   depends_on 'boost-python3'
   depends_on 'readline' => :recommended
-
+  depends_on 'autoconf'
+  depends_on 'libtool'
+  depends_on 'automake'
 
   patch :DATA
 
