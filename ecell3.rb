@@ -5,7 +5,7 @@ class Ecell3 < Formula
   homepage 'https://github.com/naito/ecell3'
   url 'https://github.com/naito/ecell3/tarball/30499e5079a94557f96282179f9572ca7019875a'
   sha256 '8c87f204c7f63b34780f0db676c523fe9d84f96efbc47604d9ce1858eaa058b2'
-  revision 2
+  revision 3
 
 $devel = false
 
