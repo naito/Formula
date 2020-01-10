@@ -19,7 +19,7 @@ $devel = true
 #  depends_on "python@2" if MacOS.version <= :snow_leopard
 #  depends_on 'python'
   depends_on 'python@2'
-  depends_on 'pygtk'
+#  depends_on 'pygtk'
   depends_on 'gsl'
   depends_on 'boost'
   depends_on 'boost-python'
@@ -58,6 +58,7 @@ $devel = true
 
     system "./autogen.sh"
     system "./configure", "--with-boost-python-libname=boost_python27-mt",
+                          "--disable-gui",
                           "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
