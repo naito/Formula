@@ -3,7 +3,7 @@ require 'formula'
 class Ecell33 < Formula
   version "3.3-alpha.2"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/archive/ecell-3.3-alpha.2.tar.gz'
+  url 'https://github.com/naito/ecell3/archive/v3.3-alpha.2.tar.gz'
   sha256 '401063b2101f685ea03eeab37dcbaa9139e6d8509b4200130468b6735042cd77'
   revision 1
 
