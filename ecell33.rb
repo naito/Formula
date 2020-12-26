@@ -1,10 +1,10 @@
 require 'formula'
 
 class Ecell33 < Formula
-  version "3.3-alpha.1"
+  version "3.3-alpha.2"
   homepage 'https://github.com/naito/ecell3'
-  url 'https://github.com/naito/ecell3/archive/ecell-3.3-alpha.1.tar.gz'
-  sha256 '257ad2350f3b9478443e325c72d24586349ac56c04d82fb03b327e3a2df3127f'
+  url 'https://github.com/naito/ecell3/archive/ecell-3.3-alpha.2.tar.gz'
+  sha256 '401063b2101f685ea03eeab37dcbaa9139e6d8509b4200130468b6735042cd77'
   revision 1
 
   depends_on :x11
@@ -24,7 +24,7 @@ class Ecell33 < Formula
 
     system "./autogen.sh"
 
-    system "./configure", "--with-boost-python-libname=boost_python37-mt",
+    system "./configure", "--with-boost-python-libname=boost_python39-mt",
                           "--disable-debug",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
